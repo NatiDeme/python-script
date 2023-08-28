@@ -1,0 +1,1618 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.035417, 5.527083],
+                [-76.052083, 5.527083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60118266,
+            "NEXT_DOWN": 60118672,
+            "DIS_AV_CMS": 2.019,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.052083, 5.527083],
+                [-76.052083, 5.522917],
+                [-76.05625, 5.51875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60118672,
+            "NEXT_DOWN": 60119123,
+            "DIS_AV_CMS": 2.802,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.05625, 5.51875],
+                [-76.05625, 5.514583],
+                [-76.052083, 5.510417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60119123,
+            "NEXT_DOWN": 60119573,
+            "DIS_AV_CMS": 3.754,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.052083, 5.510417],
+                [-76.047917, 5.50625],
+                [-76.047917, 5.502083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60119573,
+            "NEXT_DOWN": 60120795,
+            "DIS_AV_CMS": 4.253,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.99375, 5.49375],
+                [-76.002083, 5.485417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60120368,
+            "NEXT_DOWN": 60120973,
+            "DIS_AV_CMS": 1.004,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.047917, 5.502083],
+                [-76.047917, 5.497917],
+                [-76.039583, 5.489583],
+                [-76.039583, 5.477083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60120795,
+            "NEXT_DOWN": 60121614,
+            "DIS_AV_CMS": 5.016,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.002083, 5.485417],
+                [-76.00625, 5.48125],
+                [-76.00625, 5.472917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60120973,
+            "NEXT_DOWN": 60121615,
+            "DIS_AV_CMS": 1.74,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.039583, 5.460417],
+                [-76.04375, 5.460417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60121613,
+            "NEXT_DOWN": 60122730,
+            "DIS_AV_CMS": 10.708,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.039583, 5.477083],
+                [-76.03125, 5.46875],
+                [-76.039583, 5.460417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60121614,
+            "NEXT_DOWN": 60121613,
+            "DIS_AV_CMS": 6.242,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.00625, 5.472917],
+                [-76.01875, 5.460417],
+                [-76.027083, 5.460417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60121615,
+            "NEXT_DOWN": 60121804,
+            "DIS_AV_CMS": 2.419,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.027083, 5.460417],
+                [-76.03125, 5.45625],
+                [-76.035417, 5.460417],
+                [-76.039583, 5.460417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60121804,
+            "NEXT_DOWN": 60121613,
+            "DIS_AV_CMS": 4.345,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.985417, 5.460417],
+                [-75.989583, 5.45625],
+                [-75.997917, 5.45625],
+                [-76.002083, 5.452083],
+                [-76.00625, 5.452083],
+                [-76.010417, 5.447917],
+                [-76.014583, 5.447917],
+                [-76.027083, 5.460417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60122256,
+            "NEXT_DOWN": 60121804,
+            "DIS_AV_CMS": 1.791,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.939583, 5.495833],
+                [-75.939583, 5.489583],
+                [-75.935417, 5.485417],
+                [-75.935417, 5.48125],
+                [-75.93125, 5.477083],
+                [-75.93125, 5.472917],
+                [-75.935417, 5.46875],
+                [-75.935417, 5.452083],
+                [-75.939583, 5.447917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60122258,
+            "NEXT_DOWN": 60122947,
+            "DIS_AV_CMS": 1.099,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.04375, 5.460417],
+                [-76.047917, 5.45625],
+                [-76.047917, 5.447917],
+                [-76.05625, 5.439583]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60122730,
+            "NEXT_DOWN": 60123178,
+            "DIS_AV_CMS": 11.981,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.939583, 5.447917],
+                [-75.935417, 5.44375],
+                [-75.935417, 5.435417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60122947,
+            "NEXT_DOWN": 60123768,
+            "DIS_AV_CMS": 1.62,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.05625, 5.439583],
+                [-76.05625, 5.435417],
+                [-76.060417, 5.43125]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123178,
+            "NEXT_DOWN": 60123369,
+            "DIS_AV_CMS": 12.692,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.885417, 5.45625],
+                [-75.885417, 5.44375],
+                [-75.897917, 5.43125]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123181,
+            "NEXT_DOWN": 60123371,
+            "DIS_AV_CMS": 1.137,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.060417, 5.43125],
+                [-76.060417, 5.427083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123369,
+            "NEXT_DOWN": 60123566,
+            "DIS_AV_CMS": 13.244,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.897917, 5.43125],
+                [-75.897917, 5.427083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123371,
+            "NEXT_DOWN": 60123569,
+            "DIS_AV_CMS": 1.81,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.060417, 5.427083],
+                [-76.064583, 5.422917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123566,
+            "NEXT_DOWN": 60123979,
+            "DIS_AV_CMS": 14.955,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.039583, 5.422917],
+                [-76.047917, 5.422917],
+                [-76.052083, 5.427083],
+                [-76.060417, 5.427083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123567,
+            "NEXT_DOWN": 60123566,
+            "DIS_AV_CMS": 1.694,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.01875, 5.43125],
+                [-76.027083, 5.43125],
+                [-76.03125, 5.427083],
+                [-76.035417, 5.427083],
+                [-76.039583, 5.422917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123568,
+            "NEXT_DOWN": 60123567,
+            "DIS_AV_CMS": 1.114,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.897917, 5.427083],
+                [-75.897917, 5.422917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123569,
+            "NEXT_DOWN": 60124164,
+            "DIS_AV_CMS": 2.13,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.935417, 5.435417],
+                [-75.935417, 5.43125],
+                [-75.922917, 5.41875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123768,
+            "NEXT_DOWN": 60124608,
+            "DIS_AV_CMS": 2.132,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+                [
+                    [-75.85798778687298, 5.437845630162507],
+                    [-75.860417, 5.435417],
+                    [-75.860417, 5.43125],
+                    [-75.85917591683382, 5.430009065751886]
+                ],
+                [
+                    [-75.85697666446794, 5.42781007727518],
+                    [-75.8561093357218, 5.42694285260016]
+                ],
+                [
+                    [-75.85497401970815, 5.425807672813549],
+                    [-75.85433779764175, 5.425171527087674]
+                ]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123770,
+            "NEXT_DOWN": 60124879,
+            "DIS_AV_CMS": 3.552,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.064583, 5.422917],
+                [-76.072917, 5.414583]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60123979,
+            "NEXT_DOWN": 60124392,
+            "DIS_AV_CMS": 15.414,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.897917, 5.422917],
+                [-75.90625, 5.414583],
+                [-75.90625, 5.410417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124164,
+            "NEXT_DOWN": 60124609,
+            "DIS_AV_CMS": 2.668,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.072917, 5.414583],
+                [-76.07786585271319, 5.414583]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124392,
+            "NEXT_DOWN": 60124874,
+            "DIS_AV_CMS": 16.384,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.922917, 5.41875],
+                [-75.91875, 5.414583],
+                [-75.91875, 5.40625],
+                [-75.914583, 5.402083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124608,
+            "NEXT_DOWN": 60124878,
+            "DIS_AV_CMS": 2.925,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.90625, 5.410417],
+                [-75.914583, 5.402083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124609,
+            "NEXT_DOWN": 60124878,
+            "DIS_AV_CMS": 3.024,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.977083, 5.40625],
+                [-75.98125, 5.402083],
+                [-75.985417, 5.402083],
+                [-75.989583, 5.397917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124876,
+            "NEXT_DOWN": 60125590,
+            "DIS_AV_CMS": 1.06,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.914583, 5.402083],
+                [-75.91875, 5.397917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124878,
+            "NEXT_DOWN": 60125361,
+            "DIS_AV_CMS": 6.423,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+                [
+                    [-75.852083, 5.413305374407579],
+                    [-75.852083, 5.410754285714292]
+                ],
+                [
+                    [-75.852083, 5.402858322463767],
+                    [-75.852083, 5.401729719298252]
+                ]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60124879,
+            "NEXT_DOWN": 60126181,
+            "DIS_AV_CMS": 4.122,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.91875, 5.397917],
+                [-75.927083, 5.389583]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60125361,
+            "NEXT_DOWN": 60125979,
+            "DIS_AV_CMS": 6.709,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.989583, 5.397917],
+                [-75.997917, 5.389583],
+                [-75.997917, 5.385417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60125590,
+            "NEXT_DOWN": 60125976,
+            "DIS_AV_CMS": 1.769,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.035417, 5.377083],
+                [-76.04375, 5.377083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60125974,
+            "NEXT_DOWN": 60126177,
+            "DIS_AV_CMS": 17.42,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.997917, 5.385417],
+                [-76.002083, 5.38125],
+                [-76.002083, 5.377083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60125976,
+            "NEXT_DOWN": 60126178,
+            "DIS_AV_CMS": 2.171,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.927083, 5.389583],
+                [-75.93125, 5.385417],
+                [-75.93125, 5.38125],
+                [-75.935417, 5.377083],
+                [-75.939583, 5.377083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60125979,
+            "NEXT_DOWN": 60126398,
+            "DIS_AV_CMS": 7.955,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.04375, 5.377083],
+                [-76.047917, 5.372917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126177,
+            "NEXT_DOWN": 60126395,
+            "DIS_AV_CMS": 17.8,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.002083, 5.377083],
+                [-76.014583, 5.377083],
+                [-76.01875, 5.372917],
+                [-76.03125, 5.372917],
+                [-76.035417, 5.377083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126178,
+            "NEXT_DOWN": 60125974,
+            "DIS_AV_CMS": 16.434,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.985417, 5.372917],
+                [-75.989583, 5.377083],
+                [-76.002083, 5.377083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126179,
+            "NEXT_DOWN": 60126178,
+            "DIS_AV_CMS": 13.593,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+                [
+                    [-75.85489279856115, 5.3951072014388535],
+                    [-75.85625, 5.39375],
+                    [-75.85625, 5.387695420382165]
+                ],
+                [
+                    [-75.85815390077822, 5.379346099221787],
+                    [-75.860417, 5.377083],
+                    [-75.860417, 5.372917]
+                ]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126181,
+            "NEXT_DOWN": 60127224,
+            "DIS_AV_CMS": 4.883,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.060417, 5.36875],
+                [-76.06146944380404, 5.36875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126393,
+            "NEXT_DOWN": 60127615,
+            "DIS_AV_CMS": 19.485,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.05322891160222, 5.36875],
+                [-76.060417, 5.36875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126394,
+            "NEXT_DOWN": 60126393,
+            "DIS_AV_CMS": 19.028,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-76.047917, 5.372917],
+                [-76.0501470703043, 5.370686394393168]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126395,
+            "NEXT_DOWN": 60126394,
+            "DIS_AV_CMS": 18.584,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.972917, 5.36875],
+                [-75.977083, 5.36875],
+                [-75.98125, 5.372917],
+                [-75.985417, 5.372917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126397,
+            "NEXT_DOWN": 60126179,
+            "DIS_AV_CMS": 13.052,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.939583, 5.377083],
+                [-75.947917, 5.36875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126398,
+            "NEXT_DOWN": 60126594,
+            "DIS_AV_CMS": 8.546,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.947917, 5.36875],
+                [-75.952083, 5.364583],
+                [-75.95625, 5.364583],
+                [-75.960417, 5.36875],
+                [-75.972917, 5.36875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126594,
+            "NEXT_DOWN": 60126397,
+            "DIS_AV_CMS": 12.715,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.94375, 5.364583],
+                [-75.947917, 5.36875]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60126595,
+            "NEXT_DOWN": 60126594,
+            "DIS_AV_CMS": 3.531,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.939583, 5.352083],
+                [-75.939583, 5.35625],
+                [-75.94375, 5.360417],
+                [-75.94375, 5.364583]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60127222,
+            "NEXT_DOWN": 60126595,
+            "DIS_AV_CMS": 2.953,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.860417, 5.372917],
+                [-75.864583, 5.36875],
+                [-75.864583, 5.364583],
+                [-75.872917, 5.35625],
+                [-75.872917, 5.352083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60127224,
+            "NEXT_DOWN": 60127618,
+            "DIS_AV_CMS": 5.541,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.872917, 5.352083],
+                [-75.872917, 5.347917],
+                [-75.877083, 5.34375]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60127618,
+            "NEXT_DOWN": 60128276,
+            "DIS_AV_CMS": 5.928,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.939583, 5.33125],
+                [-75.939583, 5.335417],
+                [-75.94375, 5.339583],
+                [-75.94375, 5.347917],
+                [-75.939583, 5.352083]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60128274,
+            "NEXT_DOWN": 60127222,
+            "DIS_AV_CMS": 2.445,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.877083, 5.34375],
+                [-75.877083, 5.33125]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60128276,
+            "NEXT_DOWN": 60129167,
+            "DIS_AV_CMS": 6.487,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.939583, 5.322917],
+                [-75.94375, 5.327083],
+                [-75.939583, 5.33125]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60128735,
+            "NEXT_DOWN": 60128274,
+            "DIS_AV_CMS": 1.781,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.877083, 5.33125],
+                [-75.877083, 5.327083],
+                [-75.88125, 5.322917],
+                [-75.88125, 5.31875],
+                [-75.885417, 5.314583]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60129167,
+            "NEXT_DOWN": 60129569,
+            "DIS_AV_CMS": 6.97,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.947917, 5.310417],
+                [-75.947917, 5.314583],
+                [-75.939583, 5.322917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60129365,
+            "NEXT_DOWN": 60128735,
+            "DIS_AV_CMS": 1.469,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.885417, 5.314583],
+                [-75.885417, 5.30625]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60129569,
+            "NEXT_DOWN": 60130183,
+            "DIS_AV_CMS": 7.276,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.885417, 5.30625],
+                [-75.88125, 5.302083],
+                [-75.88125, 5.297917],
+                [-75.877083, 5.29375]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60130183,
+            "NEXT_DOWN": 60131247,
+            "DIS_AV_CMS": 7.604,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.94375, 5.28125],
+                [-75.94375, 5.302083],
+                [-75.947917, 5.30625],
+                [-75.947917, 5.310417]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60130819,
+            "NEXT_DOWN": 60129365,
+            "DIS_AV_CMS": 1.034,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.88125, 5.272917],
+                [-75.87273926595745, 5.272917]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60131246,
+            "NEXT_DOWN": 60132146,
+            "DIS_AV_CMS": 1.087,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.877083, 5.29375],
+                [-75.872917, 5.29375],
+                [-75.86875, 5.289583],
+                [-75.86875, 5.285417],
+                [-75.864583, 5.28125],
+                [-75.86875, 5.277083],
+                [-75.86875, 5.274273497959188]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60131247,
+            "NEXT_DOWN": 60132146,
+            "DIS_AV_CMS": 8.415,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-75.86793488387097, 5.272101883870968],
+                [-75.86581982283464, 5.269986822834644]
+            ]
+        },
+        "properties": {
+            "HYRIV_ID": 60132146,
+            "NEXT_DOWN": 60132391,
+            "DIS_AV_CMS": 9.858,
+            "region_properties": {
+                "Mun_name": "MistratÃ³",
+                "Mun_ID": "CO66456",
+                "Population": 17555,
+                "CDD": 701821,
+                "CD_factor": 3.5,
+                "El_factor": 1400,
+                "Dep_ID": "CO66"
+            },
+            "SUM": 45.727000000000004
+        }
+    }]
+}

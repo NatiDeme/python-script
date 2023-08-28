@@ -46,43 +46,46 @@ for region_feature in region_features:
     # Add the filtered river features for this region to the final list
     final_filtered_features.extend(filtered_rivers_for_this_region)
 
-# Create a dictionary to store the river features indexed by HYRIV_ID
-river_features_by_hyrid = {}
+
+from collections import defaultdict
+
+# Create a dictionary to store the river features indexed by Mun_name
+river_features_by_mun_name = defaultdict(list)
 
 for filtered_river_feature in final_filtered_features:
-    hyriv_id = filtered_river_feature['properties']['HYRIV_ID']
-    if hyriv_id not in river_features_by_hyrid:
-        river_features_by_hyrid[hyriv_id] = []
-    river_features_by_hyrid[hyriv_id].append(filtered_river_feature)
+    mun_name = filtered_river_feature['properties']['region_properties']['Mun_name']
+    river_features_by_mun_name[mun_name].append(filtered_river_feature)
 
-
-# Additional operation: For each river, check NEXT_DOWN and calculate SUM
-for filtered_river_feature in final_filtered_features:
-    region_properties = filtered_river_feature['properties']['region_properties']
-    next_down = filtered_river_feature['properties']['NEXT_DOWN']
-    hyriv_id = filtered_river_feature['properties']['HYRIV_ID']
+# Iterate through each group of features with the same Mun_name
+for mun_name, features in river_features_by_mun_name.items():
+    next_down_set = set()  # To store unique NEXT_DOWN values
     
-    # Find the river features with the matching NEXT_DOWN
-    if next_down in river_features_by_hyrid:
-        next_down_features = river_features_by_hyrid[next_down]
-        
-        # Check if NEXT_DOWN value exists in any of HYRIV_ID values
-        exists_in_any_hyriv_id = any(
-            next_down == feature['properties']['HYRIV_ID']
-            for feature in next_down_features
+    # Check if NEXT_DOWN value exists in any of the elements HYRIV_ID
+    for feature in features:
+        next_down = feature['properties']['NEXT_DOWN']
+        hyriv_id = feature['properties']['HYRIV_ID']
+
+        # Check if the current feature's next_down exists in other features' hyriv_id
+        exists_in_other_hyriv = any(
+            next_down == x['properties']['HYRIV_ID']
+            for x in features if x != feature
         )
-        
-        # If NEXT_DOWN doesn't exist, update the SUM for each feature
-        if not exists_in_any_hyriv_id:
-            dis_av_cms = filtered_river_feature['properties']['DIS_AV_CMS']
-            sum_dis_av_cms = sum(
-                feature['properties']['DIS_AV_CMS']
-                for feature in next_down_features
-            )
-            
-            # Update each feature's properties with the calculated SUM
-            for feature in next_down_features:
-                feature['properties']['SUM'] = dis_av_cms + sum_dis_av_cms
+
+        # Only add distinct NEXT_DOWN values
+        if not exists_in_other_hyriv:
+            next_down_set.add(next_down)
+    
+    # Calculate SUM of DIS_AV_CMS values
+    sum_dis_av_cms = sum(
+        feature['properties']['DIS_AV_CMS']
+        for feature in features
+        if feature['properties']['NEXT_DOWN'] in next_down_set
+    )
+    
+    # Update the SUM property for elements in this group
+    for feature in features:
+        feature['properties']['SUM'] = sum_dis_av_cms
+
 
 # Create the final FeatureCollection for the filtered river features
 final_filtered_feature_collection = {
@@ -91,5 +94,5 @@ final_filtered_feature_collection = {
 }
 
 # Write the final FeatureCollection to a new GeoJSON file
-with open('testv6.geojson', 'w', encoding='utf-8') as f:
+with open('testv12.geojson', 'w', encoding='utf-8') as f:
     json.dump(final_filtered_feature_collection, f, ensure_ascii=False)
