@@ -55,6 +55,7 @@ for filtered_river_feature in final_filtered_features:
         river_features_by_hyrid[hyriv_id] = []
     river_features_by_hyrid[hyriv_id].append(filtered_river_feature)
 
+
 # Additional operation: For each river, check NEXT_DOWN and calculate SUM
 for filtered_river_feature in final_filtered_features:
     region_properties = filtered_river_feature['properties']['region_properties']
