@@ -1,6 +1,7 @@
 import json
 from shapely.geometry import shape
 from shapely.ops import unary_union
+from collections import defaultdict
 
 # Load the GeoJSON data for the regions and the rivers
 with open('./Municipalities_Risaralda.geojson') as f:
@@ -37,8 +38,8 @@ for region_feature in region_features:
                 "type": "Feature",
                 "geometry": river_inside_region.__geo_interface__,
                 "properties": {
-                    **river_feature['properties'],  # Preserve river properties
-                    "region_properties": region_feature['properties']  # Add region properties
+                    **river_feature['properties'],
+                    "region_properties": region_feature['properties']  
                 }
             }
             filtered_rivers_for_this_region.append(filtered_river_feature)
@@ -46,8 +47,6 @@ for region_feature in region_features:
     # Add the filtered river features for this region to the final list
     final_filtered_features.extend(filtered_rivers_for_this_region)
 
-
-from collections import defaultdict
 
 # Create a dictionary to store the river features indexed by Mun_name
 river_features_by_mun_name = defaultdict(list)
@@ -94,5 +93,5 @@ final_filtered_feature_collection = {
 }
 
 # Write the final FeatureCollection to a new GeoJSON file
-with open('testv12.geojson', 'w', encoding='utf-8') as f:
+with open('filtered.geojson', 'w') as f:
     json.dump(final_filtered_feature_collection, f, ensure_ascii=False)
