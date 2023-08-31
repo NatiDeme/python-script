@@ -54,7 +54,9 @@ river_features_by_mun_name = defaultdict(list)
 for filtered_river_feature in final_filtered_features:
     mun_name = filtered_river_feature['properties']['municipality_properties']['Mun_name']
     river_features_by_mun_name[mun_name].append(filtered_river_feature)
+
 new_region_data = []
+
 # Iterate through each group of features with the same Mun_name
 for mun_name, features in river_features_by_mun_name.items():
     next_down_set = set()  # To store unique NEXT_DOWN values
@@ -85,7 +87,7 @@ for mun_name, features in river_features_by_mun_name.items():
     for region_feature in region_features:
         if region_feature['properties']['Mun_name'] == mun_name:
             region_feature['properties']['SUM'] = sum_dis_av_cms
-        new_region_data.append(region_feature)
+            new_region_data.append(region_feature)
 
 
 # Create the final FeatureCollection for the filtered river features
