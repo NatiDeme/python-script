@@ -39,7 +39,7 @@ for region_feature in region_features:
                 "geometry": river_inside_region.__geo_interface__,
                 "properties": {
                     **river_feature['properties'],
-                    "region_properties": region_feature['properties']  
+                    "municipality_properties": region_feature['properties']  
                 }
             }
             filtered_rivers_for_this_region.append(filtered_river_feature)
@@ -52,9 +52,9 @@ for region_feature in region_features:
 river_features_by_mun_name = defaultdict(list)
 
 for filtered_river_feature in final_filtered_features:
-    mun_name = filtered_river_feature['properties']['region_properties']['Mun_name']
+    mun_name = filtered_river_feature['properties']['municipality_properties']['Mun_name']
     river_features_by_mun_name[mun_name].append(filtered_river_feature)
-
+new_region_data = []
 # Iterate through each group of features with the same Mun_name
 for mun_name, features in river_features_by_mun_name.items():
     next_down_set = set()  # To store unique NEXT_DOWN values
@@ -73,17 +73,19 @@ for mun_name, features in river_features_by_mun_name.items():
         # Only add distinct NEXT_DOWN values
         if not exists_in_other_hyriv:
             next_down_set.add(next_down)
-    
+   
     # Calculate SUM of DIS_AV_CMS values
     sum_dis_av_cms = sum(
         feature['properties']['DIS_AV_CMS']
         for feature in features
         if feature['properties']['NEXT_DOWN'] in next_down_set
     )
-    
-    # Update the SUM property for elements in this group
-    for feature in features:
-        feature['properties']['SUM'] = sum_dis_av_cms
+
+    # Add SUM property in each municipality
+    for region_feature in region_features:
+        if region_feature['properties']['Mun_name'] == mun_name:
+            region_feature['properties']['SUM'] = sum_dis_av_cms
+        new_region_data.append(region_feature)
 
 
 # Create the final FeatureCollection for the filtered river features
@@ -92,6 +94,18 @@ final_filtered_feature_collection = {
     "features": final_filtered_features
 }
 
+new_filtered_region_data = {
+    "type": regions_data['type'],
+    "name": regions_data['name'],
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": regions_data['crs']['properties']['name']
+        }
+    },
+    "features": new_region_data
+    }
+
 # Write the final FeatureCollection to a new GeoJSON file
-with open('filteredRivers.geojson', 'w') as f:
-    json.dump(final_filtered_feature_collection, f, ensure_ascii=False)
+with open('filterregion.geojson', 'w') as f:
+    json.dump(new_filtered_region_data, f, ensure_ascii=False)
